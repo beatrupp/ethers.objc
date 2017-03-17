@@ -50,4 +50,6 @@ typedef NS_OPTIONS(NSUInteger, EtherFormatOption) {
 
 + (BigNumber*)parseEther: (NSString*)etherString;
 
++ (NSString* )decimalSeparatorForString:(NSString *)string;
+
 @end
